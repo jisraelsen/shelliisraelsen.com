@@ -85,3 +85,9 @@ h1.post-title {
 .panel-cover--collapsed .panel-cover__description--main {
   display: none;
 }
+
+@media (max-width: 960px) {
+  .panel-cover {
+    overflow: auto;
+  }
+}
