@@ -49,10 +49,10 @@ pre.highlight code,
 .user-image {
   margin-bottom: 1.2em;
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: 3px solid #fff;
-  border-radius:100%;
+  border-radius: 100%;
 }
 
 h1.post-title {
@@ -92,5 +92,31 @@ h1.post-title {
   }
   .panel-cover.panel-cover--collapsed {
     overflow: initial;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 960px) {
+  .user-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-image {
+    margin-top: 1em;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 340px) {
+  .user-image {
+    margin-top: 4em;
+    width: 100px;
+    height: 100px;
+  }
+  .panel-cover__description--main .panel-cover__description {
+    margin-bottom: 2em;
   }
 }
