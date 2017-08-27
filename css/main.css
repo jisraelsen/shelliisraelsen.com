@@ -90,4 +90,7 @@ h1.post-title {
   .panel-cover {
     overflow: auto;
   }
+  .panel-cover.panel-cover--collapsed {
+    overflow: initial;
+  }
 }
