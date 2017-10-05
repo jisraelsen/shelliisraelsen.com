@@ -71,8 +71,23 @@ h1.post-title {
   text-align: justify;
 }
 
+.contact-info, .contact-image {
+  width: 50%;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.contact-info address {
+  line-height: 1.3em;
+}
+
+.contact-info h4 {
+  margin-top: 0;
+}
+
 .footer {
   border-top: 1px solid #eee;
+  clear: left;
 }
 
 .panel-cover__description--main .panel-cover__description {
@@ -107,6 +122,11 @@ h1.post-title {
     margin-top: 1em;
     width: 100px;
     height: 100px;
+  }
+
+  .contact-info, .contact-image {
+    width: 100%;
+    float: none;
   }
 }
 
