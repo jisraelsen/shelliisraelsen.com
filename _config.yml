@@ -5,4 +5,4 @@ url: 'http://shelliisraelsen.com'
 baseurl: ''
 google_analytics: 'UA-68654939-2'
 
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'vendor']
